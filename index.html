@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Main Page -->
+        <div id="main-page" class="page active">
+            <h1>Main Page</h1>
+            <div class="info-box">
+                <p>Balance: <span id="balance">0</span> coins</p>
+            </div>
+        </div>
+
+        <!-- Tasks Page -->
+        <div id="tasks-page" class="page">
+            <h1>Tasks Page</h1>
+            <p>Complete the tasks below to earn rewards.</p>
+            <div class="tasks">
+                <p>Subscribe to our Telegram Channel: <a href="https://t.me/your_channel" target="_blank">Subscribe</a></p>
+            </div>
+        </div>
+
+        <!-- Referral Page -->
+        <div id="referral-page" class="page">
+            <h1>Referral Page</h1>
+            <p>Invite your friends and earn rewards!</p>
+            <div class="referral">
+                <p>Your referral link: <span id="referral-link-display"></span></p>
+                <p>Referred friends:</p>
+                <ul id="referrals-list"></ul>
+            </div>
+        </div>
+
+        <!-- Navigation Bar -->
+        <div class="navbar">
+            <button class="nav-button" id="main-link">Main</button>
+            <button class="nav-button" id="tasks-link">Tasks</button>
+            <button class="nav-button" id="friends-link">Friends</button>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
