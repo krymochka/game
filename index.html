@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Game App</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap">
 </head>
 <body>
     <div class="container">
@@ -12,7 +14,7 @@
         <div id="main-page" class="page active">
             <h1>Main Page</h1>
             <div class="info-box">
-                <p>Balance: <span id="balance">0</span> coins</p>
+                <p><span class="balance-icon">F</span> Balance: <span id="balance">0</span> coins</p>
             </div>
         </div>
 
@@ -38,9 +40,9 @@
 
         <!-- Navigation Bar -->
         <div class="navbar">
-            <button class="nav-button" id="main-link">Main</button>
-            <button class="nav-button" id="tasks-link">Tasks</button>
-            <button class="nav-button" id="friends-link">Friends</button>
+            <button class="nav-button" id="main-link"><i class="fas fa-home"></i></button>
+            <button class="nav-button" id="tasks-link"><i class="fas fa-tasks"></i></button>
+            <button class="nav-button" id="friends-link"><i class="fas fa-user-friends"></i></button>
         </div>
     </div>
     <script src="scripts.js"></script>

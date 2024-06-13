@@ -30,6 +30,14 @@ body {
     margin-bottom: 20px;
 }
 
+.balance-icon {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    color: #4ca1af;
+    font-size: 24px;
+    margin-right: 5px;
+}
+
 .navbar {
     position: fixed;
     bottom: 0;
@@ -43,21 +51,25 @@ body {
 }
 
 .nav-button {
-    background-color: #007BFF;
+    background: linear-gradient(45deg, #1f4037, #99f2c8);
     border: none;
     color: white;
-    font-size: 18px;
+    font-size: 24px;
     cursor: pointer;
     padding: 10px 20px;
     border-radius: 5px;
-    box-shadow: 0 5px #0056b3;
+    box-shadow: 0 5px #1a332d;
+}
+
+.nav-button i {
+    margin: 0;
 }
 
 .nav-button:active {
-    box-shadow: 0 3px #0056b3;
+    box-shadow: 0 3px #1a332d;
     transform: translateY(2px);
 }
 
 .nav-button:hover {
-    background-color: #0056b3;
+    background: linear-gradient(45deg, #145A32, #58D68D);
 }
